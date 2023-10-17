@@ -15,13 +15,12 @@ The functions of these five components are described as follows:
 ![framework](fig/framework.jpg?v=1&type=image)
 Fig. 1: The framework of TWStream.
 
-\begin{itemize}
-    \item \textbf{Data Stream Absorber:} It is responsible for receiving data objects from a stream and identifying which micro-clusters they belong to.
-    \item \textbf{Outlier Pool:} It caches micro-clusters (inactive status) with weights below $W_{min}$ (see Eq. (\ref{eq:Wmin})), which may be reactivated in the future.
-    \item \textbf{Graph Manager:} It maintains an \emph{augmented $k$nn graph} incrementally to accelerate the update of the $k$nn graph (see Sec. \ref{subsec:graph_management} for details).
-    \item \textbf{Confidence Detector:} It detects cluster boundaries efficiently and reveals potential cores of clusters in a stream environment (see Sec. \ref{subsec:confidence} for details).
-    \item \textbf{Three-Way Clustering Engine:} It reconstructs potential clusters employing a micro-cluster-based three-way clustering strategy effectively (see Sec. \ref{subsec:three-way_clustering} for details).
-\end{itemize}
+
+- **Data Stream Absorber:** It is responsible for receiving data objects from a stream and identifying which micro-clusters they belong to.
+- **Outlier Pool:** It caches micro-clusters (inactive status) with weights below $W_{min}$, which may be reactivated in the future.
+- **Graph Manager:** It maintains an augmented $k$nn graph incrementally to accelerate the update of the $k$nn graph.
+- **Confidence Detector:** It detects cluster boundaries efficiently and reveals potential cores of clusters in a stream environment.
+- **Three-Way Clustering Engine:** It reconstructs potential clusters employing a micro-cluster-based three-way clustering strategy effectively.
 
 ## Environment
 - JDK 1.8
