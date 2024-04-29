@@ -25,3 +25,16 @@ Fig. 1: The framework of TWStream.
 ## Environment
 - JDK 1.8
 - Apache Maven 3.6.0
+
+```
+@article{
+  title={ TWStream: Three-way stream clustering. IEEE Transactions on Fuzzy Systems},
+  author={ Sun Jiarui, Du Mingjing, Lew Zhenkang, Dong Yongquan},
+  journal={IEEE Transactions on Fuzzy Systems},
+  volume={},
+  number={},
+  pages={},
+  year={},
+  doi={}
+}
+```
