@@ -34,7 +34,7 @@ Fig. 1: The framework of TWStream.
   volume={},
   number={},
   pages={},
-  year={},
-  doi={}
+  year={2024},
+  doi={10.1109/TFUZZ.2024.3369716}
 }
 ```
